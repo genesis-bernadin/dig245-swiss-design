@@ -1,2 +1,49 @@
 
 /* css */
+html {
+  overflow-x: hidden;
+}
+
+body{
+  background: black;
+}
+
+.c1 {
+  height: 500px;
+  width: 500px;
+  background-color: #1A7A31;
+  border-radius: 50%;
+  z-index: 2; // tells the browser to make this image on top
+}
+
+.c2 {
+  height: 500px;
+  width: 500px;
+  background-color: #DDDFD6;
+  border-radius: 50%;
+  z-index: 1; // tells the browser to make this image on top
+}
+
+.c3 {
+  height: 500px;
+  width: 500px;
+  background-color: #F36523;
+  border-radius: 50%;
+  z-index: 2; // tells the browser to make this image on top
+}
+
+.rectangle {
+  background: white;
+}
+
+.details{
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 16px;
+  padding-left: 40px;
+}
+.title{
+  font-weight: 100px;
+  font-size: 100px;
+  padding-left: 40px;
+}
